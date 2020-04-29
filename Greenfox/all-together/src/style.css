@@ -1,0 +1,46 @@
+div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header, footer {
+  background: aqua;
+  width: 100%;
+  height: 100px;
+}
+
+footer {
+  background: blue;
+}
+
+aside {
+  width: 10%;
+}
+
+.right {
+  background: purple;
+}
+
+.left {
+  background: orange;
+}
+
+main {
+  flex-grow: 4;
+  background: red;
+  margin: 0 20px;
+  position: relative;
+}
+
+aside, main {
+  height: 400px;
+}
+
+nav {
+  width: 50px;
+  height: 50px;
+  background: black;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}

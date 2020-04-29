@@ -1,0 +1,84 @@
+header {
+  font-family: 'Abril Fatface';
+  color: #222222;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  width: 1280px;
+
+}
+img {
+    display: block;
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 5px solid black;
+}
+.headline {
+  display: block;
+  position: absolute;
+  top: 450px;
+  left: 340px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -175px;
+  margin-bottom: 0px;
+ 
+}
+.name {
+  font-size: 200%;
+  margin: 0;
+}
+.himynameis {
+  margin: 0;
+  font-size: 70%;
+}
+main {
+  margin: 450px 100px 30px 100px;
+}
+h2 {
+  font-family: 'Merriweather' italic;
+  text-transform: uppercase;
+  margin: 40px 0px 40px
+}
+html {
+  font-family: 'Josefin Sans';
+  color: #222;
+}
+p {
+  font-size: 13px;
+}
+.jobs {
+  font-size: 13px;
+}
+.xp {
+  font-size: 13px;
+}
+.hobby {
+  font-size: 13px;
+}
+footer {
+  margin: 30px 100px 30px 100px;
+  border-top: 5px solid;
+}
+blockquote::before {
+  content: '”';}
+blockquote {
+  width: 500px;
+  height: 100px;
+  background: #222222;
+  font-family: 'Abril Fatface';
+  font-size: 30px;
+  color: white;
+  margin: 30px 100px 30px 100px;
+  padding: 10px;
+  }
+html {
+  width: 1280px;
+}
+.img-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
