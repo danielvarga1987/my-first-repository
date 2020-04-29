@@ -1,0 +1,25 @@
+div {
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    border-left: black solid 2px;
+    border-right: black solid 2px;
+    display: block;
+    text-align: center;
+    }
+h1{
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+.1 {
+    
+}
+}
